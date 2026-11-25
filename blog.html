@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Footwears</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Dynamic logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <ul>
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()" ></i>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <h1>Our Shoes & The Amount We have Delivered For 2026</h1>
+    </header>
+
+    <section class="blog section-style">
+        <div class="section-row">
+            <div class="first-column">
+                <img src="images/nelcon.jfif" alt="">
+                <h3>Shoes & The Amount We have Delivered For 2026</h3>
+                <p>The Art of Quality Footwear: Why Every Step Matters
+
+                    Footwear is more than just an addition to your outfit; it is an essential part of your everyday lifestyle. The right pair of shoes can transform your appearance, boost your confidence, and make you feel comfortable wherever you go. Whether you're heading to work, attending a special occasion, or enjoying a casual day out, choosing the right footwear makes a difference. Great style begins from the ground up, and investing in quality footwear is one way to express your personality without saying a word.
+
+                    The Beauty of Good Craftsmanship <br><br>
+
+                    Behind every quality pair of shoes is attention to detail, patience, and a commitment to excellence. From selecting suitable materials to carefully shaping and finishing each pair, craftsmanship plays an important role in the final product. Well-crafted footwear is designed not only to look good but also to provide lasting comfort and durability. It is this combination of skill and dedication that makes a difference between ordinary footwear and something truly worth wearing.
+
+                    Finding the Perfect Pair for Your Lifestyle <br><br>
+
+                    Every occasion deserves the right footwear. Classic shoes bring elegance and sophistication to formal outfits, while half shoes offer a balance between relaxed comfort and refined style. For everyday activities, slides provide convenience, simplicity, and effortless comfort. Understanding your needs and personal style makes it easier to choose footwear that complements your wardrobe. Rather than simply following trends, choose designs that reflect who you are and make you feel confident.
+
+                    Quality That Goes Beyond Appearance <br><br>
+
+                    At the heart of great footwear is a balance between style, comfort, and durability. A beautiful design should feel just as good as it looks, allowing you to move confidently throughout your day. Taking proper care of your footwear also helps preserve its appearance and extend its lifespan. Clean your shoes regularly, store them properly, and use them for their intended purpose. Ultimately, quality footwear is an investment in how you look, feel, and present yourself. Every step tells a story, so make sure yours is worth remembering.
+                </p>
+
+                <div class="form">
+                    <h3>Leave a comment</h3>
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea name="" id="" rows="5" placeholder="Your Comment"></textarea>
+                    <button class="colour-btn uncolour-btn">POST COMMENT</button>
+                </div>
+            </div>
+            <div class="second-column">
+                <h3>Post Categories</h3>
+                <div><span>Footwear Trends</span><span>21</span></div>
+                <div><span>Shoe Care & Maintenance</span><span>28</span></div>
+                <div><span>Style & Fashion Tips</span><span>35</span></div>
+                <div><span>Craftsmanship & Design</span><span>34</span></div>
+                <div><span>Product Guides</span><span></span>12</div>
+                <div><span>Comfort & Foot Health</span><span>22</span></div>
+                <div><span>Behind the Scenes</span><span></span>13</div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer section-style">
+        <h1>About us</h1>
+        <p>We are passionate about crafting quality footwear that blends timeless style, exceptional comfort, <br> and attention to detail in every step.</p>
+        <div>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>made with <i class="fa-regular fa-heart"></i> by Olaiya Yusuf</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("nav-links");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>

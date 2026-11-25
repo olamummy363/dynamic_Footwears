@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Footwears</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Dynamic logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <ul>
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()" ></i>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <h1>About Us</h1>
+    </header>
+
+    <section class="location section-style">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3943.8490616782665!2d4.473134520156773!3d8.705880185712358!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1794826049803!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </section>
+
+    <section class=" contact section-style">
+        <div class="section-row">
+            <div class="contact-column first-contact">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <div>
+                        <p>ARLIGHTON ESTATE KWASU</p>
+                        <span>Off Elemere Road</span>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <p>+234 7017081717</p>
+                        <span>Monday To Saturday 10Am to 6Pm</span>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-regular fa-envelope"></i>
+                    <div>
+                        <p>info@yusasipholamummy.com</p>
+                        <span>Email us your query</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-column">
+                <div class="contact-form">
+                    <input type="text" placeholder="Enter your Name">
+                    <input type="text" placeholder="Enter email address">
+                    <input type="text" placeholder="Enter your subject">
+                    <textarea name="" id="" rows="7" placeholder="Message"></textarea>
+                    <button class="colour-btn uncolour-btn">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer section-style">
+        <h1>About us</h1>
+        <p>We are passionate about crafting quality footwear that blends timeless style, exceptional comfort, <br> and attention to detail in every step.</p>
+        <div>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>made with <i class="fa-regular fa-heart"></i> by Olaiya Yusuf</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("nav-links");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>

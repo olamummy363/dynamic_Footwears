@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Footwears</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Dynamic logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <ul>
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()" ></i>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <h1>About Us</h1>
+    </header>
+
+    <section class="about section-style">
+        <div class="section-row">
+             <div class="about-column">
+                <h2>We provide the world's most shoes. </h2>
+                <p>At [Brand Name], we believe that great footwear is more than just something you wear; it's an expression of personality, confidence, and individuality. Our passion for shoemaking drives us to create footwear that combines traditional craftsmanship with modern style. Every pair is thoughtfully designed and carefully crafted, with attention to detail, quality materials, and lasting comfort at the heart of everything we do. From elegant shoes to versatile half shoes and everyday slides, our goal is to provide footwear that complements your lifestyle without compromising on quality. We take pride in the work behind every pair, ensuring that each creation reflects our commitment to excellence. Whether you're dressing for a special occasion or looking for everyday comfort, we're here to help you take every step in style.</p>
+                <a href="" class="colour-btn uncolour-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-column">
+                <img src="images/boardmeeting.jfif" alt="" >
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer section-style">
+        <h1>About us</h1>
+        <p>We are passionate about crafting quality footwear that blends timeless style, exceptional comfort, <br> and attention to detail in every step.</p>
+        <div>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>made with <i class="fa-regular fa-heart"></i> by Olaiya Yusuf</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("nav-links");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
